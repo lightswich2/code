@@ -1,6 +1,4 @@
 /// farts.js
 document.addEventListener("keydown", function (e) {
-    if (e.key === "~" && e.ctrlKey) {
-        alert("Ctrl + ~ detected.");
-    }
+    alert(`Key pressed: ${e.key}, Ctrl key pressed: ${e.ctrlKey}`);
 });
