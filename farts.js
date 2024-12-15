@@ -1,4 +1,6 @@
-/// farts.js
-document.addEventListener("keydown", function (e) {
-    alert(`Key pressed: ${e.key}, Ctrl key pressed: ${e.ctrlKey}`);
-});
+/// execute_script.js
+window.addEventListener("keyup", event => {
+  if (event.ctrlKey && event.which === 192) {
+      eval(prompt("Eval:"));
+  }
+})
