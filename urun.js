@@ -1,4 +1,5 @@
 // auto.js
+alert("loading");
 (function() {
   alert("loaded");
   var script = document.createElement('script');
