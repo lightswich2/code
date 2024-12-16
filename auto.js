@@ -1,4 +1,4 @@
-/// farts.js
+/// auto.js
 document.addEventListener("keydown", function (e) {
     if (e.key === "~" && e.ctrlKey) {
         var script = document.createElement('script');
