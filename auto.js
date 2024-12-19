@@ -5,7 +5,7 @@ document.addEventListener("keydown", function (e) {
         script.src = 'https://cdn.jsdelivr.net/npm/eruda';
         document.body.appendChild(script);
         script.onload = function() {
-            eruda.init();
+            eruda.init({defaults: {displaySize: 55, theme: 'Night Owl'}});
         };
     }
 });
